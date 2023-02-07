@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <script src="./js/wiegetsdk.js"></script>
+  <!-- <script type="text/javascript">
+    ZOHO.CREATOR.init()
+        .then(function(data) {
+          console.log(data)
+        });
+  </script> -->
+  <script src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
+  <body>
+    <form id="form">
+      <label for="">Student ID: </label>
+      <input type="text"><br><br>
+      <label for="">Name: </label>
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name"><br><br>
+      <label for="">Birthdate: </label>
+      <input type="date"><br><br>
+      <label for="">Grade: </label>
+      <input type="radio" value="A" name="grade"><label for="">A</label>
+      <input type="radio" value="B" name="grade"><label for="">B</label>
+      <input type="radio" value="C" name="grade"><label for="">C</label>
+      <input type="radio" value="other" name="grade"><label for="">other</label><br><br>
+      <label for="">Mentor: </label>
+      <input type="radio" value="Pooja" name="mentor"><label for="">Pooja</label>
+      <input type="radio" value="Lavanya" name="mentor"><label for="">Lavanya</label>
+      <input type="radio" value="Priya" name="mentor"><label for="">Priya</label>
+      <input type="radio" value="other" name="mentor"><label for="">other</label><br><br>
+      <button type="submit" onclick="formdata()">submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
